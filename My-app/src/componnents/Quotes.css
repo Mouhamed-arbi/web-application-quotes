@@ -1,0 +1,33 @@
+/* body{
+  /* background-image: url("https://thumbs.gfycat.com/AchingAfraidIndigobunting-size_restricted.gif");  */
+
+.card {
+  border: 1px solid rgb(224, 16, 16);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+button {
+  height: 30px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+h4{
+  background-color: pink;
+}
+img{
+  width: 30%;
+  height: 50%;
+  background: transparent;
+}

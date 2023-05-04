@@ -1,0 +1,123 @@
+
+body {
+  font-family: "PT Serif", sans-serif;
+  margin: 0px;
+  color: #2c3e50;
+  /* background-image: url("https://thumbs.gfycat.com/AchingAfraidIndigobunting-size_restricted.gif");  */
+  background-repeat: repeat-y;
+  font-size: 1.1em;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+.card-list-item {
+  min-height: 350px;
+  margin: 20px;
+  list-style: none;
+  border: 1px solid #77777769;
+  background-color: #fdfdfd;
+  border-radius: 4px;
+  padding: 30px 50px 0px 50px;
+  box-shadow: 0 0 1em #80808066;
+  width: 200px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgba(0, 128, 0, 0);
+  padding: 10px;
+  
+}
+.bb{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  border: 3px solid rgba(0, 128, 0, 0);
+}
+.search{
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73ad2104;
+  padding: 10px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  font-family: "PT Serif", sans-serif;
+  color: #ecf0f1;
+  background-color: #e74c3c;
+  height: 44px;
+}
+
+.post {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  background-color: white;
+  padding: 5px 20px 5px 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.9em;
+  margin-right: auto;
+  margin-left: 10px;
+  font-family: "Francois One";
+  color: #ffffff;
+}
+
+.main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nav {
+  background-color: red;
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "lato";
+}
+
+.nav-selected {
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 1.1em;
+}
+
+.nav-unselected {
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 1.1em;
+}
+
+.searchinput{
+  background-color: white;
+  background-image: url('https://www.veryicon.com/download/png/miscellaneous/monochrome-icon-1/search-521?s=256');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  background: transparent;
+  position:static;
+  
+}
+.text{
+  
+  border-color: rgba(216, 112, 147, 0.904);
+}
