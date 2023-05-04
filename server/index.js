@@ -8,14 +8,12 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json())
 app.use(cors())
 
-// app.use(express.static(path.join(__dirname, '..', 'public')));
 
 app.get('/', (req, res) => {
   res.send('Hello from the server!');
 })
 
 app.get("/api/quote",(req,res)=>{
-
   connection.query(
     'SELECT * FROM `quote`',
     function(err, results, fields) {

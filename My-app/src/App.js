@@ -7,12 +7,10 @@ function App() {
   const [name, setName] = useState("");
   const [bodyquote, setbodyquote] = useState("");
   const [typequote, settypequote] = useState("");
-
-
   const [count, setCount] = useState(0)
   const [details, setDetails] = useState(false);
   const [searchh,setsearchh]=  useState("");
-  const [quote, setQuote] = useState([]);
+  
 
 
    const apiGet = async() => {
@@ -27,7 +25,7 @@ function App() {
   
    const apipost =async ()=> {
     const res= await axios.post(`http://localhost:5000/api/quote`,{name,bodyquote,typequote})
-setCount(count+1)
+     setCount(count+1)
     }
 
     
@@ -53,9 +51,8 @@ setCount(count+1)
       const shuffledArray = shuffleArray([...items]);
   return shuffledArray;
       }
-     
-    
-    var arr=newItems();
+      
+     var arr=newItems();
    
     const handleSearch=()=>{
         search(searchh)
